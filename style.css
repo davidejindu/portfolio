@@ -22,13 +22,13 @@
   --accent-primary-glow: rgba(16, 185, 129, 0.18);
   --accent-secondary-glow: rgba(6, 182, 212, 0.18);
   
-  /* Tag Colors */
-  --color-wabtec: #10b981;     /* Emerald Green */
-  --color-stratus: #38bdf8;    /* Sky Blue */
-  --color-i7: #a855f7;         /* Violet Purple */
-  --color-facet: #f43f5e;      /* Coral Pink */
+  /* Tag Colors (Color Coordinated) */
+  --color-wabtec: #ef4444;     /* Red */
+  --color-stratus: #3b82f6;    /* Navy Blue */
+  --color-i7: #38bdf8;         /* Light Blue */
+  --color-facet: #eab308;      /* Yellow */
   --color-steelhacks: #f59e0b;  /* Amber Gold */
-  --color-pitt: #eab308;        /* Pitt Gold */
+  --color-pitt: #eab308;        /* Pitt Gold / Yellow */
   
   --font-display: 'Space Grotesk', sans-serif;
   --font-mono: 'Fira Code', 'JetBrains Mono', monospace;
@@ -429,6 +429,17 @@ body {
 .exp-company {
   font-family: var(--font-mono);
   font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.company-logo-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  object-fit: contain;
+  vertical-align: middle;
 }
 
 .exp-role {
